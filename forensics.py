@@ -19,7 +19,10 @@ import warnings
 import folium
 import plotly.graph_objects as go
 
-from .parser import EmailExtractedData, EmailForensicsExtractor
+try:
+    from .parser import EmailExtractedData, EmailForensicsExtractor
+except ImportError:
+    from parser import EmailExtractedData, EmailForensicsExtractor
 
 AGENT_AVAILABLE = False
 try:

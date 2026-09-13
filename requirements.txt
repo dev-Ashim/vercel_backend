@@ -1,0 +1,12 @@
+fastapi==0.141.1
+uvicorn==0.52.0
+python-dotenv==1.2.3
+python-multipart==0.0.20
+requests==2.34.0
+beautifulsoup4==4.15.0
+pydantic==2.13.5
+folium==0.20.0
+plotly==7.0.0
+langchain-core==1.6.3
+langchain-openai==1.6.2
+langgraph==1.2.11
